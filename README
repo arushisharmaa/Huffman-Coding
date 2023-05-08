@@ -1,0 +1,126 @@
+/*  Student information for assignment:
+ *
+ *  On <OUR> honor, <Shreyansh Dixit> and <Arushi Sharma),
+ *  this programming assignment is <MY|OUR> own work
+ *  and <We> have not provided this code to any other student.
+ *
+ *  Number of slip days used: 1
+ *
+ *  Student 1 (Student whose Canvas account is being used)
+ *  UTEID: as224936
+ *  email address: arushisharma@utexas.edu
+ *  Grader name: Pranav Chandupatla
+ *  Section number: 52570 
+ *
+ *  Student 2
+ *  UTEID: sd42627
+ *  email address: shreyansh.dixit@utexas.edu
+ */
+ 
+ QUESTIONS: 
+ What kinds of file lead to lots of compressions?
+Files that have repeating characters naturally lead to a
+increased need for compression due to the increased frequencies. This leads to an increase in time as the compression has more to do.
+The more repeated information you have, the more information you need to compress, so it takes a longer time. 
+
+What kind of files had little or no compression?
+Files that have little or no compression are files that h dave majority distinct or unique characters. 
+This means that the file has unique information that the compressor needs to retain, which leads to a reduction in how much
+of the file is actually compressed. 
+
+What happens when you try and compress a huffman code file?
+There shouldn't be much of a difference in size. Upon another compression pass, since the frequencies should be
+relatively the same, the compression wouldn't really accomplish much. 
+
+
+DATA: 
+compressing to: /Users/shreyanshd43/VS Code/Java/CS314/10 - Huffman Coding and Compression/BooksAndHTML/melville.txt.hf
+melville.txt from        82140 to        47364 in        0.196
+compressing to: /Users/shreyanshd43/VS Code/Java/CS314/10 - Huffman Coding and Compression/BooksAndHTML/A7_Recursion.html.hf
+A7_Recursion.html from   41163 to        26189 in        0.087
+compressing to: /Users/shreyanshd43/VS Code/Java/CS314/10 - Huffman Coding and Compression/BooksAndHTML/jnglb10.txt.hf
+jnglb10.txt from         292059 to       168618 in       0.488
+compressing to: /Users/shreyanshd43/VS Code/Java/CS314/10 - Huffman Coding and Compression/BooksAndHTML/ThroughTheLookingGlass.txt.hf
+ThroughTheLookingGlass.txt from  188199 to       110293 in       0.338
+compressing to: /Users/shreyanshd43/VS Code/Java/CS314/10 - Huffman Coding and Compression/BooksAndHTML/syllabus.htm.hf
+syllabus.htm from        33273 to        21342 in        0.066
+compressing to: /Users/shreyanshd43/VS Code/Java/CS314/10 - Huffman Coding and Compression/BooksAndHTML/revDictionary.txt.hf
+revDictionary.txt from   1130523 to      611618 in       1.877
+compressing to: /Users/shreyanshd43/VS Code/Java/CS314/10 - Huffman Coding and Compression/BooksAndHTML/CiaFactBook2000.txt.hf
+CiaFactBook2000.txt from         3497369 to      2260664 in      6.825
+compressing to: /Users/shreyanshd43/VS Code/Java/CS314/10 - Huffman Coding and Compression/BooksAndHTML/kjv10.txt.hf
+kjv10.txt from   4345020 to      2489768 in      7.215
+compressing to: /Users/shreyanshd43/VS Code/Java/CS314/10 - Huffman Coding and Compression/BooksAndHTML/rawMovieGross.txt.hf
+rawMovieGross.txt from   117272 to       53833 in        0.199
+compressing to: /Users/shreyanshd43/VS Code/Java/CS314/10 - Huffman Coding and Compression/BooksAndHTML/quotes.htm.hf
+quotes.htm from  61563 to        38423 in        0.131
+--------
+total bytes read: 9788581
+total compressed bytes 5828112
+total percent compression 40.460
+compression time: 17.422
+
+compressing to: /Users/shreyanshd43/VS Code/Java/CS314/10 - Huffman Coding and Compression/calgary/paper6.hf
+paper6 from      38105 to        25057 in        0.114
+compressing to: /Users/shreyanshd43/VS Code/Java/CS314/10 - Huffman Coding and Compression/calgary/paper1.hf
+paper1 from      53161 to        34371 in        0.136
+compressing to: /Users/shreyanshd43/VS Code/Java/CS314/10 - Huffman Coding and Compression/calgary/obj1.hf
+obj1 from        21504 to        17085 in        0.058
+compressing to: /Users/shreyanshd43/VS Code/Java/CS314/10 - Huffman Coding and Compression/calgary/geo.hf
+geo from         102400 to       73592 in        0.211
+compressing to: /Users/shreyanshd43/VS Code/Java/CS314/10 - Huffman Coding and Compression/calgary/progc.hf
+progc from       39611 to        26948 in        0.077
+compressing to: /Users/shreyanshd43/VS Code/Java/CS314/10 - Huffman Coding and Compression/calgary/progl.hf
+progl from       71646 to        44017 in        0.141
+compressing to: /Users/shreyanshd43/VS Code/Java/CS314/10 - Huffman Coding and Compression/calgary/book1.hf
+book1 from       768771 to       439409 in       1.465
+compressing to: /Users/shreyanshd43/VS Code/Java/CS314/10 - Huffman Coding and Compression/calgary/progp.hf
+progp from       49379 to        31248 in        0.112
+compressing to: /Users/shreyanshd43/VS Code/Java/CS314/10 - Huffman Coding and Compression/calgary/pic.hf
+pic from         513216 to       107586 in       0.305
+compressing to: /Users/shreyanshd43/VS Code/Java/CS314/10 - Huffman Coding and Compression/calgary/news.hf
+news from        377109 to       247428 in       0.777
+compressing to: /Users/shreyanshd43/VS Code/Java/CS314/10 - Huffman Coding and Compression/calgary/paper4.hf
+paper4 from      13286 to        8894 in         0.053
+compressing to: /Users/shreyanshd43/VS Code/Java/CS314/10 - Huffman Coding and Compression/calgary/bib.hf
+bib from         111261 to       73795 in        0.257
+compressing to: /Users/shreyanshd43/VS Code/Java/CS314/10 - Huffman Coding and Compression/calgary/paper3.hf
+paper3 from      46526 to        28309 in        0.091
+compressing to: /Users/shreyanshd43/VS Code/Java/CS314/10 - Huffman Coding and Compression/calgary/paper2.hf
+paper2 from      82199 to        48649 in        0.192
+compressing to: /Users/shreyanshd43/VS Code/Java/CS314/10 - Huffman Coding and Compression/calgary/paper5.hf
+paper5 from      11954 to        8465 in         0.028
+compressing to: /Users/shreyanshd43/VS Code/Java/CS314/10 - Huffman Coding and Compression/calgary/obj2.hf
+obj2 from        246814 to       195131 in       0.687
+compressing to: /Users/shreyanshd43/VS Code/Java/CS314/10 - Huffman Coding and Compression/calgary/trans.hf
+trans from       93695 to        66252 in        0.191
+compressing to: /Users/shreyanshd43/VS Code/Java/CS314/10 - Huffman Coding and Compression/calgary/book2.hf
+book2 from       610856 to       369335 in       1.219
+--------
+total bytes read: 3251493
+total compressed bytes 1845571
+total percent compression 43.239
+compression time: 6.114
+
+compressing to: /Users/shreyanshd43/VS Code/Java/CS314/10 - Huffman Coding and Compression/waterloo/sail.tif.hf
+sail.tif from    1179784 to      1085501 in      3.583
+compressing to: /Users/shreyanshd43/VS Code/Java/CS314/10 - Huffman Coding and Compression/waterloo/monarch.tif.hf
+monarch.tif from         1179784 to      1109973 in      3.522
+compressing to: /Users/shreyanshd43/VS Code/Java/CS314/10 - Huffman Coding and Compression/waterloo/clegg.tif.hf
+clegg.tif from   2149096 to      2034595 in      6.106
+compressing to: /Users/shreyanshd43/VS Code/Java/CS314/10 - Huffman Coding and Compression/waterloo/lena.tif.hf
+lena.tif from    786568 to       766146 in       2.409
+compressing to: /Users/shreyanshd43/VS Code/Java/CS314/10 - Huffman Coding and Compression/waterloo/serrano.tif.hf
+serrano.tif from         1498414 to      1127645 in      3.504
+compressing to: /Users/shreyanshd43/VS Code/Java/CS314/10 - Huffman Coding and Compression/waterloo/peppers.tif.hf
+peppers.tif from         786568 to       756968 in       2.472
+compressing to: /Users/shreyanshd43/VS Code/Java/CS314/10 - Huffman Coding and Compression/waterloo/tulips.tif.hf
+tulips.tif from  1179784 to      1135861 in      3.453
+compressing to: /Users/shreyanshd43/VS Code/Java/CS314/10 - Huffman Coding and Compression/waterloo/frymire.tif.hf
+frymire.tif from         3706306 to      2188593 in      6.477
+--------
+total bytes read: 12466304
+total compressed bytes 10205282
+total percent compression 18.137
+compression time: 31.526
+
